@@ -1,0 +1,112 @@
+{
+  "units": "metres",
+  "up_axis": "Z",
+  "estimated_room_size": [
+    9,
+    8,
+    2.9
+  ],
+  "source": "Three user office photographs; approximate procedural reconstruction, not a measured digital twin",
+  "joints": [
+    {
+      "name": "ChairSwivel",
+      "path": "/World/Joints/ChairSwivel",
+      "body": "/World/Chairs/HeroChair/SeatAssembly",
+      "type": "revolute",
+      "axis": "Z",
+      "lower": -175,
+      "upper": 175
+    },
+    {
+      "name": "CabinetA_Drawer1",
+      "path": "/World/Joints/CabinetA_Drawer1",
+      "body": "/World/Cabinets/CabinetA/Drawer_1",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "CabinetA_Drawer2",
+      "path": "/World/Joints/CabinetA_Drawer2",
+      "body": "/World/Cabinets/CabinetA/Drawer_2",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "CabinetA_Drawer3",
+      "path": "/World/Joints/CabinetA_Drawer3",
+      "body": "/World/Cabinets/CabinetA/Drawer_3",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "CabinetB_Drawer1",
+      "path": "/World/Joints/CabinetB_Drawer1",
+      "body": "/World/Cabinets/CabinetB/Drawer_1",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "CabinetB_Drawer2",
+      "path": "/World/Joints/CabinetB_Drawer2",
+      "body": "/World/Cabinets/CabinetB/Drawer_2",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "CabinetB_Drawer3",
+      "path": "/World/Joints/CabinetB_Drawer3",
+      "body": "/World/Cabinets/CabinetB/Drawer_3",
+      "type": "prismatic",
+      "axis": "Y",
+      "lower": -0.34,
+      "upper": 0
+    },
+    {
+      "name": "WasherDoor",
+      "path": "/World/Joints/WasherDoor",
+      "body": "/World/Washer/Door",
+      "type": "revolute",
+      "axis": "Z",
+      "lower": -112,
+      "upper": 0
+    },
+    {
+      "name": "CraneBoom",
+      "path": "/World/Joints/CraneBoom",
+      "body": "/World/Crane/Boom",
+      "type": "revolute",
+      "axis": "X",
+      "lower": -12,
+      "upper": 18
+    }
+  ],
+  "dynamic_bodies": [
+    "/World/Chairs/HeroChair/SeatAssembly",
+    "/World/Cabinets/CabinetA/Drawer_1",
+    "/World/Cabinets/CabinetA/Drawer_2",
+    "/World/Cabinets/CabinetA/Drawer_3",
+    "/World/Cabinets/CabinetB/Drawer_1",
+    "/World/Cabinets/CabinetB/Drawer_2",
+    "/World/Cabinets/CabinetB/Drawer_3",
+    "/World/Washer/Door",
+    "/World/Crane/Boom",
+    "/World/Storage/Box_7",
+    "/World/Props/GraspBottle"
+  ],
+  "stage": "office_interactive.usda",
+  "counts": {
+    "prims": 2901,
+    "joints": 9,
+    "dynamic_bodies": 11
+  }
+}

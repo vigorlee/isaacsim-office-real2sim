@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+renders/frames/
+references/
+scene_command.json
+command_done.json
+*.zip
+.DS_Store
